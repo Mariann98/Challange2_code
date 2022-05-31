@@ -45,7 +45,6 @@ header img {
   top: 0;
   left: 0;
   animation: floating 30s linear infinite;
-  transform: translateX(100vw) translateY(100vh) rotateZ(90);
 }
 
 .timeButtonWrapper {
