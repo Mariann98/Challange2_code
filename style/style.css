@@ -16,6 +16,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 2em;
 }
 
 header img {
@@ -23,26 +24,14 @@ header img {
   width: auto;
 }
 
-.digital_clock_time {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
+#digital_clock_time {
+  color: #c0a6f1;
+  font-size: 7em; 
   text-align: center;
   margin-top: 5%;
 }
 
-#digital_clock_time {
-  color: #c0a6f1;
-  font-size: 7em;
-}
-
-#am_pm {
-  font-size: 2em;
-  color: white;
-}
-
 #clocks_date {
-  align-items: center;
   text-align: center;
   font-size: 4em;
   color: white;
@@ -61,7 +50,6 @@ header img {
 
 .timeButtonWrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -71,8 +59,8 @@ header img {
   border-radius: 2em;
   border: none;
   color: white;
-  padding: 1em 1em;
-  font-size: 1.2em;
+  padding: 1em 2em;
+  font-size: 1.5em;
   margin-top: 5%;
 }
 
