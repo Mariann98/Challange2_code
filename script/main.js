@@ -11,12 +11,6 @@ setInterval(function () {
   document.querySelector("#digital_clock_time").innerHTML =
     hours + " : " + minutes + " : " + seconds;
   document.querySelector("#clocks_date").innerHTML = date.toDateString();
-
-  if (hours <= 11) {
-    document.querySelector("#am_pm").innerHTML = "AM";
-  } else {
-    document.querySelector("#am_pm").innerHTML = "PM";
-  }
 });
 
 let tickingClockStarts = value => {
