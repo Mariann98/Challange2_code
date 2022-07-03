@@ -23,7 +23,7 @@ let tickingClockStarts = value => {
 //background changes from light to dark mode
 let date = new Date();
 let hours = date.getHours();
-if (hours <= 12) {
+if (hours <= 11) {
   document.body.style.backgroundColor = "#EFD9AF";
 } else {
   document.body.style.backgroundColor = "#202020";
